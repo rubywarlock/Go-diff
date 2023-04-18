@@ -13,7 +13,7 @@ type RSpecList struct {
 }
 
 func main() {
-    patches := [2]string{"./list_two.json", "./list_ones.json"}
+    patches := [2]string{"./list_two.json", "./list_one.json"}
     var lists [len(patches)]RSpecList
     var ptr_lists []*RSpecList
 
